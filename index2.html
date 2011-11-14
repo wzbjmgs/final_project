@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Znode</title>
+   
+<script type="text/javascript">
+	$(document).ready(function(){
+  $('#toggleButton').click(function(){
+    $('#app1').slideToggle('slow');
+  });
+});
+
+</script >
+  </head>
+  <body>
+   <input type="button" id="toggleButton" value="toggle" />
+   <div id="app1">
+		<embed  src="app.html" height=300 width=300 />
+	</div>
+	<embed id="app2"  src="app.html" height=300 width=300 />
+	<embed id="app3"  src="app.html" height=300 width=300 />
+	<embed id="app4"  src="app.html" height=300 width=300 />
+  </body>
+</html>
+  
